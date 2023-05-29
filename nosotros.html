@@ -1,19 +1,107 @@
 <!DOCTYPE html>
-<html lang="ee">
+<html lang="es">
 <head>
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda Muebles - Nosotros</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/app.css"/>
-
+    <link rel="stylesheet" href="css/nosotros.css">
 </head>
 
 <body>
+    <header>
+        <a href="index.html"><h1 class="nombre-sitio">Tienda <span>Muebles.</span></h1></a>
+    </header>
 
-    <h1>Nosotros</h1>
-    <a href="index.html">Volver a Inicio</a>
+    <div class="contenedor-navegacion">
+        <nav class="nav-principal contenedor">
+            <a href="index.html">Inicio</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="tienda.html">Tienda</a>
+            <a href="blog.html">Blog</a>
+            <a href="galeria.html">Galeria</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </div>
 
+    <main class="hero">
+        <div class="pagina-sobre-nosotros">
+            <div class="titulo-sobre-nosotros">
+                <h2>Sobre Nosotros</h2>
+            </div>
+            <div class="parrafo-sobre-nosotros">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsa reprehenderit iure quas sint excepturi. Hic delectus repudiandae adipisci expedita, id, ipsam fugit officiis accusamus harum ullam, consectetur assumenda. Optio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur consequatur architecto aspernatur dicta at maiores ab perferendis ullam sit vitae facere cupiditate sequi et, molestiae aut id eum laboriosam magni. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque iste dolorum voluptas. Ex debitis, et est commodi aliquid repudiandae, minus consectetur, error deserunt animi adipisci voluptatem id architecto iste dolore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt minus, possimus quo ad doloribus cupiditate, animi libero veniam eveniet consequuntur explicabo nostrum sapiente odio quam ducimus a iure repellat corrupti.</p>
+                <div class="contenedor-boton">
+                    <a class="btn" href="index.html#productos-destacados">Productos Destacados</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="nuestra-historia">
+        <div class="contenedor nuestra-historia-grid">
+            <div class="texto-historia">
+                <h2>Nuestra Historia</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, natus placeat amet cupiditate debitis aut enim, asperiores quaerat dolorum nobis consequatur, adipisci tenetur soluta ab velit dolor tempora repellat deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem deserunt veniam mollitia aliquid neque, sint incidunt reprehenderit magnam repellat, voluptatibus recusandae nulla. Odit, nemo. Dicta quo excepturi iure molestias ratione!</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contenedor">
+        <h2 class="text-center">Misión y Valores</h2>
+        <div class="contenido-mision-valores">
+            <div class="imagen">
+                <img 
+                    src="img/mision-valores.jpg"
+                    alt="Imagen misión y valores"
+                />
+            </div>
+            <div class="informacion-mision-valores">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur possimus, et ut officia pariatur tempora enim provident sint praesentium quasi voluptate ipsa, quidem placeat rerum veniam quae! Doloremque, veniam distinctio. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam necessitatibus, laborum ad voluptate corrupti illo ipsam et culpa consequuntur, mollitia quidem eaque nemo laudantium iusto possimus, hic pariatur ipsum tempora.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae natus obcaecati, vero voluptatem ratione ea totam corrupti cumque eius, culpa perferendis aspernatur nisi modi quo quis porro velit laudantium enim! Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit quis et debitis laborum consequatur odio similique recusandae repellendus eligendi est! Commodi blanditiis possimus beatae. Autem ipsam quae possimus quos assumenda.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="grid-footer contenedor">
+            <div><!-- Categorías footer -->
+                <h3>Categorías</h3>
+                <nav class="footer-menu">
+                    <a href="#">Cocina</a>
+                    <a href="#">Oficina</a>
+                    <a href="#">Living</a>
+                    <a href="#">Dormitorio</a>
+                    <a href="#">Jardín</a>
+                </nav>
+            </div>
+            
+            <div><!-- Sobre nosotros footer -->
+                <h3>Sobre Nosotros</h3>
+                <nav class="footer-menu">
+                    <a href="#">Nuestra Historia</a>
+                    <a href="#">Misión y Valores</a>
+                    <a href="#">Trabaja con Nosotros</a>
+                    <a href="#">Política de Privacidad</a>
+                    <a href="#">Términos del Servicio</a>
+                </nav>
+            </div>
+            
+            <div><!-- Soporte footer -->
+                <h3>Soporte</h3>
+                <nav class="footer-menu">
+                    <a href="#">Preguntas Frecuentes</a>
+                    <a href="#">Ayuda en Línea</a>
+                    <a href="#">Confianza y Seguridad</a>
+                </nav>
+            </div>
+        </div>
+        <p class="copyright">&copy; Todos los derechos reservados, Sofia Lozano - Tienda Muebles | 2023</p>
+    </footer>
 </body>
 </html>
