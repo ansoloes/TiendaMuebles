@@ -53,6 +53,11 @@ img {
     display: block;
 }
 
+.contenedor-boton {
+    display: flex;
+    justify-content: center;
+}
+
 .btn {
     background-color: #E86A33;
     display: block;
@@ -62,10 +67,12 @@ img {
     font-weight: bold;
     padding: 1.6rem;
     transition: all .5s ease-out;
+    border: none;
 }
 
 .btn:hover {
     background-color: #aa3f11;
+    cursor: pointer;
 }
 
 /* Utilidades */
@@ -268,5 +275,6 @@ header {
 .copyright {
     text-align: center;
     margin-top: 3.2rem;
+    margin-bottom: 0;
     font-size: 1.2rem;
 }

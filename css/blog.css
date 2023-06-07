@@ -47,11 +47,6 @@
     margin: 1.6rem 0;
 }
 
-.contenedor-boton {
-    display: flex;
-    justify-content: center;
-}
-
 /* Sidebar */
 .sidebar h3 {
     color: #fff;

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Muebles - Contacto</title>
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/app.css"/>
+    <link rel="stylesheet" href="css/contacto.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><h1 class="nombre-sitio">Tienda <span>Muebles.</span></h1></a>
+    </header>
+
+    <div class="contenedor-navegacion">
+        <nav class="nav-principal contenedor">
+            <a href="index.html">Inicio</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="tienda.html">Tienda</a>
+            <a href="blog.html">Blog</a>
+            <a href="galeria.html">Galeria</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </div>
+
+    <main class="contenido-principal contenedor">
+        <h2 class="text-center">Contacto</h2>
+
+        <form class="formulario"><!--Formulario-->
+            <fieldset><!--Datos Personales-->
+                <legend>Datos Personales</legend>
+                <div class="campo">
+                    <label for="nombre">Nombre(s):</label>
+                    <input id="nombre" type="text" placeholder="Tu Nombre" required/>
+                </div>
+                
+                <div class="campo">
+                    <label for="apellido">Apellido(s):</label>
+                    <input id="apellido" type="text" placeholder="Tu Apellido" required/>
+                </div>
+
+                <div class="campo">
+                    <label for="asunto">Asunto:</label>
+                    <input id="asunto" type="text" placeholder="Tu Asunto" required/>
+                </div>
+
+                <div class="campo">
+                    <label for="email">Email:</label>
+                    <input id="email" type="email" placeholder="Tu Email" required/>
+                </div>
+
+                <div class="campo">
+                    <label for="telefono">Teléfono:</label>
+                    <input id="telefono" type="tel" placeholder="Tu Teléfono" required/>
+                </div>
+
+                <div class="campo">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" cols="30" rows="20" required></textarea>
+                </div>
+
+                <div class="campo">
+                    <label for="mensaje">Categoría de Interés:</label>
+                    <input list="categorias" name="categorias"/>
+                    <datalist id="categorias">
+                        <option value="Cocina"/>
+                        <option value="Hogar"/>
+                        <option value="Oficina"/>
+                    </datalist>
+                </div>
+            </fieldset>
+
+            <fieldset><!--Ubicación-->
+                <legend>Ubicación</legend>
+                <div class="campo">
+                    <label for="pais">País</label>
+                    <select id="pais" required>
+                        <option disabled>-- País de Residencia --</option>
+                        <option value="CO">Colombia</option>
+                        <option value="EC">Ecuador</option>
+                        <option value="PR">Perú</option>
+                        <option value="CL">Chile</option>
+                        <option value="AR">Argentina</option>
+                        <option value="MX">México</option>
+                    </select>
+                </div>
+            </fieldset>
+
+            <fieldset><!--Tipo de Persona-->
+                <legend>Tipo de Persona</legend>
+                <div class="campo">
+                    <label for="cliente">Cliente</label>
+                    <input id="cliente" type="radio" name="tipo"/>
+                </div>
+
+                <div class="campo">
+                    <label for="proveedor">Proveedor</label>
+                    <input id="proveedor" type="radio" name="tipo"/>
+                </div>
+            </fieldset>
+
+            <fieldset><!--Forma de Contacto-->
+                <legend>¿Cómo te gustaría que te contactemos?</legend>
+                <div class="campo">
+                    <label for="whatsapp">WhatsApp</label>
+                    <input id="whatsapp" type="checkbox" name="tipo">
+                </div>
+
+                <div class="campo">
+                    <label for="email-contacto">Email</label>
+                    <input id="email-contacto" type="checkbox" name="tipo">
+                </div>
+
+                <div class="campo">
+                    <label for="llamada">Llamada Telefónica</label>
+                    <input id="llamada" type="checkbox" name="tipo">
+                </div>
+            </fieldset>
+            <div class="contenedor-boton">
+                <input class="btn" type="submit" value="Enviar Formulario">
+            </div>
+        </form>
+    </main>
+
+    <footer class="site-footer">
+        <div class="grid-footer contenedor">
+            <div><!-- Categorías footer -->
+                <h3>Categorías</h3>
+                <nav class="footer-menu">
+                    <a href="#">Cocina</a>
+                    <a href="#">Oficina</a>
+                    <a href="#">Living</a>
+                    <a href="#">Dormitorio</a>
+                    <a href="#">Jardín</a>
+                </nav>
+            </div>
+            
+            <div><!-- Sobre nosotros footer -->
+                <h3>Sobre Nosotros</h3>
+                <nav class="footer-menu">
+                    <a href="#">Nuestra Historia</a>
+                    <a href="#">Misión y Valores</a>
+                    <a href="#">Trabaja con Nosotros</a>
+                    <a href="#">Política de Privacidad</a>
+                    <a href="#">Términos del Servicio</a>
+                </nav>
+            </div>
+            
+            <div><!-- Soporte footer -->
+                <h3>Soporte</h3>
+                <nav class="footer-menu">
+                    <a href="#">Preguntas Frecuentes</a>
+                    <a href="#">Ayuda en Línea</a>
+                    <a href="#">Confianza y Seguridad</a>
+                </nav>
+            </div>
+        </div>
+        <p class="copyright">&copy; Todos los derechos reservados, Sofia Lozano - Tienda Muebles | 2023</p>
+    </footer>
+</body>
+</html>

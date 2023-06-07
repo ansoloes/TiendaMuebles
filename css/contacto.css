@@ -1,0 +1,40 @@
+.formulario {
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+.formulario fieldset {
+    border: 1px solid #000;
+    margin-bottom: 2.4rem;
+}
+
+.formulario legend {
+    background-color: #E86A33;
+    padding: .8rem;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: .4rem;
+    margin-bottom: 2.4rem;
+}
+
+.campo {
+    display: flex;
+    margin-bottom: 1.6rem;
+}
+
+.campo label{
+    flex-basis: 16rem;
+}
+
+.campo input:not([type="checkbox"], [type="radio"]), 
+.campo textarea,
+.campo select
+{
+    flex: 1;
+    border: 1px solid #b8b8b8;
+    padding: .8rem;
+    resize: none;
+}
