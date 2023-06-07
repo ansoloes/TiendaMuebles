@@ -9,7 +9,7 @@
     align-items: center;
 }
 
-.hero-blog h2 {
+.hero-blog h1 {
     font-size: 8.8rem;
     text-transform: uppercase;
     color: #fff;
@@ -20,6 +20,10 @@
     display: grid;
     grid-template-columns: 2.5fr 1fr;
     column-gap: 16rem;
+}
+
+.blog h2 {
+    text-align: center;
 }
 
 .entrada {
