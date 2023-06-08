@@ -181,6 +181,12 @@ header {
 }
 
 /* Listado de Productos */
+.filtros {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.6rem;
+}
+
 .listado-productos {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
