@@ -158,7 +158,7 @@ header {
 
 /* Bloque Nosotros */
 .sobre-nosotros {
-    background-image: linear-gradient( to right, transparent 50%, #E86A33 50% ), url(../img//nosotros.jpg);
+    background-image: linear-gradient( to right, transparent 50%, #E86A33 50% ), url(../img/nosotros.jpg);
     padding: 14rem 0;
     margin-top: 4.8rem;
     background-size: 100%, 100rem;
